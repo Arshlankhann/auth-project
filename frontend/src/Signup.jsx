@@ -13,10 +13,15 @@ function Signup() {
     try {
       await axios.post('http://localhost:5000/api/signup', form);
       alert('Signup successful');
+      return window.location.href = "/login";
     } catch (err) {
       alert('Signup failed');
     }
   };
+
+  const handleLogin = () => {
+    window.location.href = "/login";
+  }  
 
   return (
     <div className="container">
@@ -25,6 +30,7 @@ function Signup() {
       <input name="age" type="number" placeholder="Age" onChange={handleChange} />
       <input name="email" placeholder="Email" onChange={handleChange} />
       <input name="password" type="password" placeholder="Password" onChange={handleChange} />
+      <button onClick={handleLogin}>Log In</button>
       <button onClick={handleSignup}>Sign Up</button>
     </div>
   );

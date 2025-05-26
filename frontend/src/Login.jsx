@@ -15,13 +15,18 @@ function Login() {
       alert('Login failed');
     }
   };
-
+  
+  const handleSignup = () => {
+    window.location.href = "/signup";
+  }
+  
   return (
     <div className="container">
       <h2>Log In</h2>
       <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
       <input type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />
       <button onClick={handleLogin}>Log In</button>
+      <button onClick={handleSignup}>Sign up</button>
     </div>
   );
 }

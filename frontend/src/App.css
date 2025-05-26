@@ -12,6 +12,9 @@ body {
   box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
   text-align: center;
 }
+.container button{
+  margin: 5% 5% 0 5% ;
+}
 
 input {
   width: 90%;

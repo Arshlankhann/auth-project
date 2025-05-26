@@ -29,7 +29,8 @@ function Home() {
           <button onClick={logout}>Logout</button>
         </div>
       ) : (
-        <p>Please login</p>
+        <><p>Please login</p><button onClick={() => window.location.href = "/login"}>Login</button>
+        <button onClick={() => window.location.href = "/signup"}>Sign Up</button></>
       )}
     </div>
   );
