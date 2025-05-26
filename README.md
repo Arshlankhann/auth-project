@@ -27,25 +27,14 @@ git clone https://github.com/your-username/auth-project.git
 cd auth-project
 ```
 
-### ⚙️ Step 2: Setup MySQL Database
-```bash
-1 Open http://localhost/phpmyadmin
-
-2 Click Import
-
-3 Choose the file: backend/schema.sql
-
-4 Click Go to run the script
-```
-
-###🔌 Step 3: Setup Backend
+### 🔌 Step 2: Setup Backend
 ```bash
 cd backend
 npm install
 node server.js
 ```
 
-###🌐 Step 4: Setup Frontend
+### 🌐 Step 3: Setup Frontend
 ```bash
 cd ../frontend
 npm install
