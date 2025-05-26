@@ -26,10 +26,10 @@ function Signup() {
   return (
     <div className="container">
       <h2>Sign Up</h2>
-      <input name="name" placeholder="Name" onChange={handleChange} />
-      <input name="age" type="number" placeholder="Age" onChange={handleChange} />
-      <input name="email" placeholder="Email" onChange={handleChange} />
-      <input name="password" type="password" placeholder="Password" onChange={handleChange} />
+      <input name="name" placeholder="Name" required onChange={handleChange} />
+      <input name="age" type="number" placeholder="Age" required onChange={handleChange} />
+      <input name="email" placeholder="Email" required onChange={handleChange} />
+      <input name="password" type="password" placeholder="Password" required onChange={handleChange} />
       <button onClick={handleLogin}>Log In</button>
       <button onClick={handleSignup}>Sign Up</button>
     </div>

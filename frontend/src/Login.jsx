@@ -23,8 +23,8 @@ function Login() {
   return (
     <div className="container">
       <h2>Log In</h2>
-      <input placeholder="Email" onChange={e => setEmail(e.target.value)} />
-      <input type="password" placeholder="Password" onChange={e => setPassword(e.target.value)} />
+      <input placeholder="Email" required onChange={e => setEmail(e.target.value)} />
+      <input type="password" required placeholder="Password" onChange={e => setPassword(e.target.value)} />
       <button onClick={handleLogin}>Log In</button>
       <button onClick={handleSignup}>Sign up</button>
     </div>
