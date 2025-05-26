@@ -9,7 +9,7 @@ body {
   padding: 2rem;
   background: white;
   border-radius: 8px;
-  box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
+  box-shadow: 0px 4px 12px rgb(0, 0, 0);
   text-align: center;
 }
 .container button{
@@ -21,13 +21,13 @@ input {
   padding: 10px;
   margin: 10px 0;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid grey;
 }
 
 button {
   padding: 10px 20px;
   border: none;
-  background: #4CAF50;
+  background: #37c93c;
   color: white;
   border-radius: 5px;
   cursor: pointer;
