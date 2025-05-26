@@ -6,8 +6,6 @@ A simple full-stack user authentication system with:
 - 🌐 Frontend: React.js (Vite)
 - 📋 Features: Signup, Login, Home page (protected route)
 
----
-
 
 ---
 
